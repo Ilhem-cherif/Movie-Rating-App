@@ -1,0 +1,14 @@
+import { Routes, Route } from "react-router";
+import HomePage from "./pages/HomePage";
+import MovieDetailPage from "./pages/MovieDetailPage";
+
+export default function App() {
+  return (
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/movie/:id" element={<MovieDetailPage />} />
+      </Routes>
+    </div>
+  );
+}

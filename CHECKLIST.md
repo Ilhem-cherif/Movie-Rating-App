@@ -1,0 +1,6 @@
+- The `/src/data/movies.template.ts` file includes proper TypeScript types for data structures
+- The `/src/services/movies-service.template.ts` file includes proper types for function parameters and return types
+- The `/src/pages/HomePage.template.tsx` file includes proper types for hooks, state variables, and function parameters
+- The `/src/components/MovieItem.template.tsx` file includes proper TypeScript types for component props
+- All function parameters are properly typed (no implicit `any` types)
+- There are zero TypeScript warnings or errors in the project when running `npm run build`
