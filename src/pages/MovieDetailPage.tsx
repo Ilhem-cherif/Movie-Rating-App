@@ -49,7 +49,7 @@ export default function MovieDetailPage() {
         </div>
       ) : (
         <div className="text-center py-8">
-          <p>Movie not found</p>
+          <p>Movie not found!</p>
         </div>
       )}
     </>
